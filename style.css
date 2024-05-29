@@ -1,0 +1,29 @@
+input {
+    height: 80px;
+    width: 120px;
+    font-size: 28px;
+    font-weight: bold;
+    background-color: #4c4c4c78;
+    color: white;
+}
+#calc {
+    height: 140px;
+    width: 34%;
+    text-align: right;
+    padding-bottom: 0px;
+}
+#btnc {
+    background-color: red;
+    font-size: 34px;
+}
+#btnres {
+    background-color: orange;
+}
+body {
+    background-color: black;
+    text-align: center;
+}
+h1 {
+    color: aqua;
+    font-size: 32px;
+}

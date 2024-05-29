@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Calculator</h1>
+<form>
+    <input id="calc"type="text"name="answer"placeholder="Let's Calculate"></br></br>
+    <div>
+    <div>
+       <input type="button"value="c"id="btnc"onClick="clr()">
+       <input type="button"value="%"onClick="symbol('%')">
+       <input type="button"value="x"onClick="dellastchar()">
+       <input type="button"value="/"onClick="symbol('/')">
+    </div>
+    <div style="margin-top: 5px;">
+        <input type="button"value="7"onClick="seven()">
+        <input type="button"value="8"onClick="eight()">
+        <input type="button"value="9"onClick="nine()">
+        <input type="button"value="*"onClick="symbol('*')">
+    </div>
+    <div style="margin-top: 5px;">
+        <input type="button"value="4"onClick="four()">
+        <input type="button"value="5"onClick="five()">
+        <input type="button"value="6"onClick="six()">
+        <input type="button"value="-"onClick="symbol('-')">
+    </div>
+    <div style="margin-top: 5px;">
+        <input type="button"value="1"onClick="one()">
+        <input type="button"value="2"onClick="two()">
+        <input type="button"value="3"onClick="three()">
+        <input type="button"value="+"onClick="symbol('+')">
+    </div>
+    <div style="margin-top: 5px;">
+        <input type="button"value="00"onClick="dblzero()">
+        <input type="button"value="0"onClick="zero()">
+        <input type="button"value="."onClick="symbol('.')">
+        <input type="button"value="="id="btnres"onClick="calResult()">
+    </div>
+   </div>
+</form>
+    <script src="calculator.js"></script>
+</body>
+</html>
